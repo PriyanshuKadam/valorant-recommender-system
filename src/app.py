@@ -20,7 +20,7 @@ def calculate_kda(row):
 
 # Function to display agent images
 def display_agent_image(agent):
-    image_path = os.path.join('..', 'images', f'{agent}.png')
+    image_path = os.path.join('images', f'{agent}.png')
     if os.path.exists(image_path):
         image = Image.open(image_path)
         st.image(image, caption=agent, width=150)
