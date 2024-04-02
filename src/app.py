@@ -5,7 +5,7 @@ from scipy.stats import pearsonr
 from PIL import Image
 
 # Read the CSV file
-df = pd.read_csv(r'..\data\player_stats.csv')
+df = pd.read_csv('data/player_stats.csv')
 
 # Function to filter DataFrame based on selected map
 def filter_df(dataframe, selected_map):
